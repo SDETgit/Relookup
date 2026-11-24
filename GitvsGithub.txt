@@ -1,0 +1,63 @@
+================================================================================
+                                GIT vs. GITHUB
+================================================================================
+
+Git is a tool installed on your computer that tracks every change you make to
+your files, 
+while GitHub is a website where you upload those files to back them
+up and share them with others.
+
+SIMPLE ANALOGY:
+  - Git    = Your phone's Camera (takes and saves photos locally on your device)
+  - GitHub = Google Photos (the online cloud where you upload and share them)
+
+
+--------------------------------------------------------------------------------
+QUICK COMPARISON
+--------------------------------------------------------------------------------
++------------------+-----------------------------------+-------------------------------------------+
+| Feature          | Git                               | GitHub                                    |
++------------------+-----------------------------------+-------------------------------------------+
+| What it is       | A software tool                   | A cloud website / platform                |
+| Where it runs    | Locally on your laptop            | Online (on the internet)                  |
+| Internet needed? | No (works completely offline)     | Yes                                       |
+| Main job         | Saves snapshots ("versions")      | Stores backups & lets teams collaborate   |
++------------------+-----------------------------------+-------------------------------------------+
+
+
+--------------------------------------------------------------------------------
+A PRECISE EXAMPLE
+--------------------------------------------------------------------------------
+Imagine you are writing a test script called login.ts on your laptop:
+
+1. GIT IN ACTION (Local):
+   You write the first 10 lines of code and use Git to save a snapshot called
+   "Added username field." An hour later, you add 20 more lines and save a
+   second snapshot called "Added password check." If you accidentally break
+   the script, Git lets you instantly rewind to the first snapshot -- all
+   offline on your own machine.
+
+2. GITHUB IN ACTION (Cloud):
+   Now you want a backup in case your laptop dies, and your teammate needs to
+   add a "Forgot Password" test to the same file. You upload (push) your Git
+   snapshots to GitHub. Your teammate logs into GitHub, downloads (pulls) your
+   latest version, adds their code, and uploads it back so both of your changes
+   stay in sync.
+
+
+--------------------------------------------------------------------------------
+KEY TAKEAWAY
+--------------------------------------------------------------------------------
+You can use Git completely on its own without ever touching GitHub, but you
+need Git to make proper use of GitHub.
+
+
+https://github.com/SDETgit/Relookup.git
+
+
+git config --global init.defaultBranch main  # Set 'main' as default branch
+ git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+git config --global init.defaultBranch main  # Set 'main' as default branch
+
+ls - la list all item from the folder 
